@@ -1,0 +1,21 @@
+table {
+	width: 100%;
+	border: 2px solid white;
+	background-color: DarkSeaGreen;
+	color: white;
+}
+
+.Category {
+	border: 2px solid white;
+	size: large;
+}
+
+td:hover {
+	background-color: yellow;
+	border: 2px solid black;
+	color: black;
+}
+
+.Category:hover {
+	background-color: pink;
+}
