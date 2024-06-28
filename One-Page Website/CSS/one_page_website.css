@@ -1,0 +1,19 @@
+html {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+form input[type="text"] {
+    width: auto;
+    margin: 5px 3px;
+    border: 1px black solid;
+    border-radius: 6px;
+}
+
+textarea {
+    border: 1px black solid;
+    border-radius: 6px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+}
