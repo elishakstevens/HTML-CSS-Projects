@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Something New</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="somethingnew.css">
+    </head>
+    <body> 
+        
+        <!--Creating canvas to draw in with JavaScript-->
+        <canvas id="myCanvas" width="1000" height="500"></canvas>
+        
+        <!--Drawing a Circle in Canvas-->
+        <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.beginPath();
+            ctx.arc(500, 250, 200, 0, 2 * Math.PI); //context.arc(x, y, r, sAngle, eAngle, counterclockwise)
+            ctx.stroke();
+        </script>
+
+    </body>
+</html>

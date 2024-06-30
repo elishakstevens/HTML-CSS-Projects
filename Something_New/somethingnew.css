@@ -1,0 +1,14 @@
+html {
+    background-image: linear-gradient(to bottom right, pink, orange);
+}
+
+canvas {
+    background-color: rgb(236, 31, 65);
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+script {
+    border: 2px solid orange;
+    background-color: orange;
+}
