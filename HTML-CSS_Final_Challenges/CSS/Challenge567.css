@@ -1,0 +1,47 @@
+.navbar {
+    overflow: hidden;
+    background-color: lightblue;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
+
+.main {
+    margin-top: 70px;
+}
+
+.column {
+    text-align: center;
+    float: left;
+    width: 50%;
+    height: 500px;
+    color: white;
+    background-color: lightblue;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+p:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}

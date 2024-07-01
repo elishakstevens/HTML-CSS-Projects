@@ -1,0 +1,18 @@
+.container {
+    position: relative;
+    width: 50%;
+    text-align: center;
+    color: black;
+}
+
+video {
+    width: 100%;
+    opacity: 0.4;
+}
+
+.overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
