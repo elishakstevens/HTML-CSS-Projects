@@ -1,5 +1,5 @@
 # HTML-CSS-Projects
-This repository is for my HTML/CSS Projects in Tech Academy.
+This repository is for all of my HTML & CSS assignments and projects in the Software Developer Bootcamp. All projects were created using HTML, CSS, and Bootstrap.
 
 ## Projects
   - Creating a CSS Menu
